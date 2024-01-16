@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(33, 33, 53);
+    color: white;
+    height: 10vh;
+    width: 100%;
+    margin-top: 0;
+    line-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.simonSayGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.2em;
+    margin-top: 2rem;
+
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    gap: 2.2em;
+}
+
+h2 {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.box {
+    height: 20vh;
+    width: 20vh;
+    border: 0.4em rgb(63, 62, 62) solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.box:active {
+    scale: 0.98;
+}
+
+.flash {
+    background-color: white;
+}
